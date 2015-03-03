@@ -1,7 +1,7 @@
 {
   "name": "check-browser",
   "version": "0.1.0",
-  "description": "Simple module built on top of bowser's browser detection library for blacklisting/whitelisting browsers",
+  "description": "bowser + semver, with fluent API",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -27,5 +27,13 @@
   "bugs": {
     "url": "https://github.com/ashaffer/check-browser/issues"
   },
-  "homepage": "https://github.com/ashaffer/check-browser"
+  "homepage": "https://github.com/ashaffer/check-browser",
+  "dependencies": {
+    "bowser": "^0.7.2"
+  },
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "mocha": "^2.1.0",
+    "mock-require": "^1.0.5"
+  }
 }
