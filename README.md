@@ -19,7 +19,7 @@ check-browser takes a single argument, a map of browser names to minimum version
   * `windowsphone`
   * `ios` (`iphone` / `ipad` / `ipod`)
   * `firefoxos`
-  * `webos'
+  * `webos`
 
 (not all of these are browsers, I know, but they will all work)
 
