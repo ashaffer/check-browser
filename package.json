@@ -1,6 +1,6 @@
 {
   "name": "check-browser",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Ultra-thin wrapper around bowser with simple declarative interface",
   "main": "index.js",
   "directories": {
