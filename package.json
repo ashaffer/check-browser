@@ -1,0 +1,31 @@
+{
+  "name": "check-browser",
+  "version": "0.1.0",
+  "description": "Simple module built on top of bowser's browser detection library for blacklisting/whitelisting browsers",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ashaffer/check-browser"
+  },
+  "keywords": [
+    "check",
+    "browser",
+    "browser",
+    "support",
+    "supported",
+    "browser",
+    "bowser"
+  ],
+  "author": "ashaffer (http://github.com/ashaffer)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashaffer/check-browser/issues"
+  },
+  "homepage": "https://github.com/ashaffer/check-browser"
+}
