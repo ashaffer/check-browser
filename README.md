@@ -12,4 +12,9 @@ var isSupported = require('check-browser')({
 });
 ```
 
-Returns true if the browser version is >= the specified version.
+Returns true if the browser version is >= the specified version.  You may also use the `others` property to toggle whitelist/blacklist behavior.  E.g.
+
+```javascript
+checkBrowser({chrome: 33}) // Returns false for Firefox
+checkBrowser({chrome: 33, others: true}) // Returns true for Firefox
+```

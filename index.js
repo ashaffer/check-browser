@@ -1,8 +1,11 @@
 var bowser = require('bowser');
 
 module.exports = function(supports) {
-  return Object.keys(supports).some(function(browser) {
-    var version = supports[browser];
-    return bowser[browser] && bowser.version >= version;
-  });
+  var listed = false;
+  return Object.keys(supports).some(function(name) {
+    if(name !== 'others' && bowser[name]) {
+      listed = true;
+      return bowser.version >= supports[name];
+    }
+  }) || !! (supports.others && ! listed);
 };
