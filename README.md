@@ -30,7 +30,7 @@ check-browser is also forgiving about capitalization, chrome/Chrome/CHROME, are 
 ## Examples
 
 ```javascript
-require('check-browser')({
+checkBrowser({
   msie: 7,
   chrome: 10,
   firefox: 3
