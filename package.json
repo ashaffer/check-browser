@@ -1,7 +1,7 @@
 {
   "name": "check-browser",
   "version": "0.1.0",
-  "description": "bowser + semver, with fluent API",
+  "description": "Ultra-thin wrapper around bowser with simple declarative interface",
   "main": "index.js",
   "directories": {
     "test": "test"
