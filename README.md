@@ -6,20 +6,20 @@ Ultra-thin wrapper around bowser with simple declarative interface
 
 check-browser takes a single argument, a map of browser names to minimum version numbers, and returns a boolean value indicating whether or not the current browser is equal to or greater than one of the allowed ones.  The browser names it uses are the same as [bowser's](ded/bowser) keys:
 
-    * `chrome`
-    * `safari`
-    * `msie`
-    * `opera`
-    * `seamonkey`
-    * `blackberry`
-    * `bada`
-    * `tizen`
-    * `sailfish`
-    * `android`
-    * `windowsphone`
-    * `ios` (`iphone` / `ipad` / `ipod`)
-    * `firefoxos`
-    * `webos'
+  * `chrome`
+  * `safari`
+  * `msie`
+  * `opera`
+  * `seamonkey`
+  * `blackberry`
+  * `bada`
+  * `tizen`
+  * `sailfish`
+  * `android`
+  * `windowsphone`
+  * `ios` (`iphone` / `ipad` / `ipod`)
+  * `firefoxos`
+  * `webos'
 
 (not all of these are browsers, I know, but they will all work)
 
