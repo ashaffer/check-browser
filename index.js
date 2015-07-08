@@ -7,7 +7,7 @@ module.exports = function(supports) {
 
     if(name !== 'others' && bowser[name]) {
       listed = true;
-      return bowser.version >= supports[name];
+      return (bowser.version || bowser.osversion) >= supports[name];
     }
   }) || !! (supports.others && ! listed);
 };
